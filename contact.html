@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es" dir="lrt">
+<head>
+    <meta charset="utf-8" />
+    <title>PROYECTON</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <link id="theme" rel="stylesheet" type="text/css" media="screen" href="css/green.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!--jQuery UI-->
+  <link rel = "stylesheet" href = "js/jquery-ui-1.12.1/jquery-ui.min.css" />
+  <link rel = "stylesheet" href = "js/jquery-ui-1.12.1/jquery-ui.structure.min.css" />
+  <link rel = "stylesheet" href = "js/jquery-ui-1.12.1/jquery-ui.theme.min.css" />
+  <script type = "text/javascript" src = "js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+  <!--jQuery validator-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+  <!--Scripts-->
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+    <div id="selector-theme">
+        <div id="to-green"></div>
+        <div id="to-red"></div>
+        <div id="to-blue"></div>
+    </div>
+
+    <section id="global">
+        <!--cabezera-->
+        <header>
+            <div id="logo">
+                <h1>Proyecto JS</h1>
+            </div>
+            <div class="clear-fix"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="about.html">Sobre mi</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--contenido-->
+        <section id="contenido">
+            <div id="box">
+                <h2>Contacto</h2>
+                <form action="#" id="form_contact" method="posts">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" data-validation="alphanumeric" />
+
+                    <label for="surname">Apellido</label>
+                    <input type="text" name="surname" data-validation="alphanumeric" />
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" data-validation="email"/>
+
+                    <label for="sex">Sexo</label>
+                    <select name="sex" data-validation="required">
+                        <option value="Men">Hombre</option>
+                        <option value="woman">Mujer</option>
+                    </select>
+
+                    <label for="date">Fecha de nacimiento</label>
+                    <input type="text" name="date" data-validation="date" data-validation-format="dd/mm/yyyy"/>
+
+                    <label for="years">Edad</label>
+                    <input type="number" name="years" data-validation="number" />
+
+                    <input type="submit" value="Enviar" />
+                </form>
+            </div>
+
+            <aside id="sidebar">
+                <div id="about">
+                    <h4><span>Quien soy?</span></h4>
+                    <img src="img/caracol.jpg" alt="imagen de un caracol" />
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem impedit voluptatibus, corporis qui unde officia dolore ab obcaecati repudiandae minima omnis esse reiciendis iste? Necessitatibus repellat qui inventore veniam deserunt.
+                    </p>
+                </div>
+                <div id="login">
+                    <h4><span>identificate</span></h4>
+                    <form>
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" id="name">
+                        <label for="email">Correo:</label>
+                        <input type="email" name="email" id="email" />
+                        <label for="contrasena">Contraseña:</label>
+                        <input type="password" name="contrasena" id="contrasena" />
+                        <input type="submit" name="enviar" id="enviar" />
+                    </form>
+                </div>
+            </aside>
+            <div class="clear-fix"></div>
+        </section>
+    </section>
+    <footer>
+        Yo soy el master en javaScript xddd &copy;
+        <a href="#" class="subir">Ir a arriba</a>
+    </footer>
+</body>
+</html>

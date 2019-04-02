@@ -1,0 +1,287 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/*investiga cabron*/
+.clear-fix
+{
+    float: none;
+    clear: both;
+}
+
+body
+{
+    background: url("../img/hojas.jpg");
+    background-attachment: fixed;
+}
+
+#global
+{
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0px 0px 2px #ccc;
+}
+
+#logo
+{
+    font-family: Verdana, arial;
+    font-size: 25px;
+    letter-spacing: 4px;
+    line-height: 75px;
+    background-color: #235E3D;
+    color: white;
+    text-align: center;
+    width: 385px;
+    height: 80px;
+    float: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#menu
+{
+    font-family: helvetica, arial;
+    background-color: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#menu ul
+{
+    line-height: 46px;
+    list-style: none;
+    transition: all 300ms;
+}
+
+#menu ul li
+{
+    height: 46px;
+    display: inline-block;
+}
+
+#menu ul li:hover
+{
+    background-color: #235E3D;
+}
+
+#menu ul li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#posts
+{
+    width: 60%;
+    float: left;
+    font-family: helvetica, arial;
+}
+
+.post
+{
+    padding: 7px;
+}
+
+h2
+{
+    font-size: 30px;
+    color: #333;
+    font-family: helvetica, arial;
+}
+
+.post .date
+{
+    display: block;
+    color: gray;
+    margin-top: 5px;
+}
+
+.post p
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.button-more
+{
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+    background-color: #235E3D;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+#sidebar
+{
+    font-family: helvetica, arial;
+    width: 31%;
+    float: right;
+}
+
+#sidebar h4
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url("../img/lines.png") repeat-x;
+}
+
+#sidebar span
+{
+    background-color: white;
+    padding: 5px;
+}
+
+#sidebar img
+{
+    width: 100%;
+}
+
+#sidebar p
+{
+    font-size: 15px;
+    text-align: justify;
+}
+
+form input[type="text"], 
+form input[type="password"], 
+form input[type="email"],
+form input[type="number"],
+form input[type="date"]
+{
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+form input[type="submit"]
+{
+    background-color: #eee;
+    padding: 5px;
+    border: 1px solid #ccc;
+    color: #333;
+    cursor: pointer;
+}
+
+footer
+{
+    font-family: helvetica, arial;
+    color: white;
+    height: 47px;
+    background: rgba(51, 51, 51, 0.7);
+    margin: 0px auto;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+}
+
+.bx-wrapper .bx-viewport
+{
+    height: 250px !important;
+}
+
+#selector-theme
+{
+    position: fixed;
+    top: 40%;
+    background: rgba(51, 51, 51, 0.5);
+    width: 50px;
+    height: 100px;
+}
+
+#selector-theme div
+{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    cursor: pointer;
+}
+
+#to-green
+{
+    background-color: #235E3D;
+}
+
+#to-red
+{
+    background-color: #CA3413;
+}
+
+#to-blue
+{
+    background-color: #1F87C4;
+}
+
+.subir
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+#box
+{
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+
+#acordeon
+{
+    margin-top: 20px;
+}
+
+#reloj
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: helvetica, arial;
+    color: #333;
+    border: 5px dashed #333;
+    width: 30%;
+    padding: 30px;
+    margin: 0px auto;
+}
+
+#form_contact
+{
+    width: 50%;
+    margin-top: 15px;
+    font-family: helvetica, arial;
+}
+
+#form_contact label
+{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
